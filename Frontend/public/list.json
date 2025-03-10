@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "Athletics",
+        "title": "The Glory of Track and Field.",
+        "price": 229,
+        "category": "Free",
+        "image": "https://img.freepik.com/premium-vector/book-open-set_25030-13229.jpg?w=740"
+    },
+    {
+        "id": 2,
+        "name": "Fantasy",
+        "title": "Dragons and Lost Kingdoms.",
+        "price": 99,
+        "category": "Free",
+        "image": "https://img.freepik.com/premium-vector/book-open-set_25030-13229.jpg?w=740"
+    },
+    {
+        "id": 3,
+        "name": "Adventure",
+        "title": "Voyage to the Peaks of Mystery.",
+        "price": 80,
+        "category": "Run",
+        "image": "https://img.freepik.com/premium-vector/book-open-set_25030-13229.jpg?w=740"
+    },
+    {
+        "id": 4,
+        "name": "Romance",
+        "title": "A Tale of Endless Love.",
+        "price": 199,
+        "category": "Free",
+        "image": "https://img.freepik.com/premium-vector/book-open-set_25030-13229.jpg?w=740"
+    },
+    {
+        "id": 5,
+        "name": "Mystery",
+        "title": "The Vanishing Shadows.",
+        "price": 70,
+        "category": "Poverty",
+        "image": "https://img.freepik.com/premium-vector/book-open-set_25030-13229.jpg?w=740"
+    },
+    {
+        "id": 6,
+        "name": "Horror",
+        "title": "Haunted by the Unknown.",
+        "price": 499,
+        "category": "Free",
+        "image": "https://img.freepik.com/premium-vector/book-open-set_25030-13229.jpg?w=740"
+    },
+    {
+        "id": 7,
+        "name": "Science Fiction",
+        "title": "Beyond the Stars.",
+        "price": 100,
+        "category": "Free",
+        "image": "https://img.freepik.com/premium-vector/book-open-set_25030-13229.jpg?w=740"
+    },
+    {
+        "id": 8,
+        "name": "Biography",
+        "title": "The Life of a Visionary.",
+        "price": 20,
+        "category": "Free",
+        "image": "https://img.freepik.com/premium-vector/book-open-set_25030-13229.jpg?w=740"
+    },
+    {
+        "id": 9,
+        "name": "Historical",
+        "title": "Legends of Ancient Empires.",
+        "price": 499,
+        "category": "Free",
+        "image": "https://img.freepik.com/premium-vector/book-open-set_25030-13229.jpg?w=740"
+    },
+    {
+        "id": 10,
+        "name": "Comedy",
+        "title": "Laughs Through the Ages.",
+        "price": 399,
+        "category": "Free",
+        "image": "https://img.freepik.com/premium-vector/book-open-set_25030-13229.jpg?w=740"
+    }    
+]
