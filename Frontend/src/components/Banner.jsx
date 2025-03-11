@@ -7,9 +7,11 @@ function Banner() {
      <div className="w-full order-2 md:order-1 md:w-1/2 mt-12 mt:36">
            <div className='space-y-8'>
            <h1 className="text-2xl md:text-4xl font-bold" > 
-             Hello Welcome here to learn something <span className='text-green-500'>New Everydays.!!</span>  </h1>
-        <p className="text-sm md:text-xl">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo aperiam odio ab, fugit provident nemo? Aliquid ducimus quidem ab, consequuntur impedit fuga necessitatibus,
-           iste blanditiis hic repudiandae amet quos ullam!</p>
+           Welcome to <span className='text-green-500'>Booksphere </span> <br /> Explore a Universe of Stories  </h1>
+    <p className="text-sm md:text-xl">Booksphere is a dynamic platform crafted for book enthusiasts to 
+      discover, explore, and share their reading adventures. Whether you're a lifelong reader or just 
+      starting to grow your collection, Booksphere connects readers in an engaging space where stories 
+      truly come to life.</p>
   <label className="input input-bordered flex items-center gap-2">
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -26,8 +28,8 @@ function Banner() {
         </div> 
         <button className="btn mt-5 btn-secondary ">Get Started</button> 
       </div>
-     <div className="   order-1 w-full mt-20 md:w-1/2">
-     <img src={banner} className="md:w-[550px] md:h-[460px] md:ml-12" alt="" /> </div>
+     <div className="  order-1 w-full mt-20 md:w-1/2">
+     <img src={banner} className="md:w-[550px] md:h-[460px] md:ml-12" alt="" /></div>
     </div>
     </>
   )

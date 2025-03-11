@@ -64,9 +64,11 @@ function Freebook() {
         <div>
           <h1 className="font-semibold text-xl pb-2">Free Offered Courses</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Accusantium veritatis alias pariatur ad dolor repudiandae eligendi
-            corporis nulla non suscipit, iure neque earum?
+          At Booksphere, we believe that learning should be accessible to everyone. 
+          That is why we offer a collection of free courses designed to nurture your love for reading,
+           enhance your literary knowledge, and build valuable skills. Whether you are an aspiring writer,
+            a literature enthusiast, or simply curious to dive deeper into books, our curated courses 
+            have something for you!
           </p>
         </div>     
        

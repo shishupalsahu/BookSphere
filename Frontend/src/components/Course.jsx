@@ -24,17 +24,14 @@ function Course() {
      <div className=" max-w-screen-2xl container mx-auto md:px-20 px-4">
         <div className="mt-28 items-center justify-center text-center">
           <h1 className="text-2xl  md:text-4xl">
-          We're thrilled to have you {" "}
-            <span className="text-pink-600"> with us!</span>
+          Explore Our Course Library  {" "}
+            <span className="text-pink-600"> Your Learning Hub. </span>
           </h1>
           <p className="mt-12">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro,
-            assumenda? Repellendus, iste corrupti? Tempore laudantium
-            repellendus accusamus accusantium sed architecto odio, nisi expedita
-            quas quidem nesciunt debitis dolore non aspernatur praesentium
-            assumenda sint quibusdam, perspiciatis, explicabo sequi fugiat amet
-            animi eos aut. Nobis quisquam reiciendis sunt quis sed magnam
-            consequatur!
+          Discover a diverse collection of courses designed to inspire and empower book lovers,
+           writers, and curious minds alike. Whether you're looking to deepen your literary understanding,
+            refine your writing skills, or explore new genres, our carefully curated library has something
+             for everyone.
           </p> 
           <Link to="/">
             <button className="mt-6 bg-pink-500 text-white px-4 py-2 rounded-md hover:bg-pink-700 duration-300">
