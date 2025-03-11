@@ -78,9 +78,9 @@ const Navbar = () => {
             <div className="navbar-center hidden lg:flex">
               <ul className="menu menu-horizontal px-1">{NavItems}    </ul>
             </div>
-            <div className="hidden md:block">
-              <label className="  px-3 py-1 border flex items-center gap-2">
-                <input type="text" className=" dark:bg-slate-900 dark:text-white  grow outline-none " placeholder="Search" />
+            <div className="hidden  md:block">
+              <label className=" rounded-full dark:bg-white dark:text-black px-3 py-1 border flex items-center gap-2">
+                <input type="text" className="  grow outline-none " placeholder="Search" />
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 16 16"
