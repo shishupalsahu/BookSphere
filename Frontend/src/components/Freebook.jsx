@@ -60,10 +60,10 @@ function Freebook() {
 
   return (
     <>
-        <div className=" max-w-screen-2xl container mx-auto md:px-20 px-4">
+        <div className="max-w-screen-2xl container mx-auto md:px-20 px-4">
         <div>
-          <h1 className="font-semibold text-xl pb-2">Free Offered Courses</h1>
-          <p>
+          <h1 className=" dark:text-white text-red-900 font-bold  text-xl pb-2">Free Offered Courses</h1>
+          <p className='font-semibold'>
           At Booksphere, we believe that learning should be accessible to everyone. 
           That is why we offer a collection of free courses designed to nurture your love for reading,
            enhance your literary knowledge, and build valuable skills. Whether you are an aspiring writer,

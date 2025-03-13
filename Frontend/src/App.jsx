@@ -1,7 +1,8 @@
-import React from 'react'
-
+import React from 'react' 
 import Home from './home/Home'
-// import Course from './components/Course'
+import Contact from './components/Contact';
+import About from './components/About';
+
 import { Navigate, Route, Routes } from "react-router-dom"
 import Courses from './courses/Courses'
 import Signup from './components/Signup' 
@@ -19,6 +20,10 @@ function App() {
    <Route path="/" element={<Home/>}/>
    <Route path="/course" element={authUser?<Courses/>:<Navigate to="/signup"/>} />
    <Route path="/Signup" element={<Signup/>} />
+    {/* add for contact */}
+    <Route path="/Contact" element={<Contact />} />
+    <Route path="/About" element={<About/>} />
+
    </Routes>
    <Toaster />
    </>

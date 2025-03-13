@@ -40,14 +40,14 @@ function Login() {
           });
   };
   return (
-    <div>
+    <div >
       <dialog id="my_modal_2" className="modal">
-     <div className="modal-box">
+     <div className=" bg-blue-400 modal-box">
      <form onSubmit={handleSubmit(onSubmit)} method="dialog">
             {/* if there is a button in form, it will close the modal */}
             <Link
               to="/"
-              className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
+              className=" btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
               onClick={() => document.getElementById("my_modal_3").close()}
             >
               ✕
@@ -96,7 +96,7 @@ function Login() {
               </button>
               <p>
                 Not registered? {" "}
-                <Link to="/Signup" className="underline text-blue-500 cursor-pointer">
+                <Link to="/Signup" className=" font-bold underline text-red-500 cursor-pointer">
                   Signup
                 </Link>{" "}           
               </p>

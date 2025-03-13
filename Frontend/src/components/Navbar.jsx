@@ -4,6 +4,7 @@ import Login from './Login';
 import Logout from './Logout';
 import { useAuth } from "../context/AuthProvider";
 
+
 const Navbar = () => {
     
   const [authUser, setAuthUser] = useAuth();
@@ -41,14 +42,15 @@ const Navbar = () => {
   const NavItems = (<>
     <li><a href='/'>Home</a></li>
     <li><a href='/course'>Course</a></li>
-    <li><a>Contact</a></li>
-    <li><a>About</a></li>
+    <li><a href='/Contact'>Contact</a></li>
+    <li><a href='/About'>About</a></li>
   </>);
   return (
     <>
-      <div className={`Max-w-screen-2x1 container  mx-auto md:px-20 px-4 dark:bg-slate-900 dark :text-white
+      <div className={`max-w-full mx-0 fixed top-0 left-0 right-0 z-50 dark:bg-slate-900 dark :text-white
        fixed  top-0 left-0 right-0 z-50 ${sticky ? "sticky-navbar shadow-md bg-base-200 duration-600 transition-all ease-in-out" : ""
         }`} >
+          
         <div className="navbar">
           <div className="navbar-start">
             <div className="dropdown">
@@ -122,8 +124,8 @@ const Navbar = () => {
             </label> 
             {
               authUser?<Logout/>:
-                <div className="">
-              <a className="bg-black text-white px-4 py-2 
+                <div className=" ">
+              <a className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 
               rounded-md hover:bg-slate-800 duration-300 cursor-pointer"
               onClick={() =>document.getElementById("my_modal_2").showModal()}
               >Login</a>

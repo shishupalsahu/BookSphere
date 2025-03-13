@@ -1,0 +1,80 @@
+/* Contact.css */
+
+/* Removed body styles to avoid conflicts with project layout */
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+}
+
+.contact_main {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 90%;
+}
+
+.contact_main h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.contact_main p {
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+}
+
+.contact_main form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact_main input, 
+.contact_main textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.contact_main textarea {
+  resize: none;
+  height: 120px;
+}
+
+.contact_main button {
+  padding: 12px;
+  background: #007bff;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.contact_main button:hover {
+  background: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .contact_main {
+      width: 95%;
+      padding: 15px;
+  }
+
+  .contact_main h1 {
+      font-size: 20px;
+  }
+}
+
+/* Let me know if you want any other adjustments! */
