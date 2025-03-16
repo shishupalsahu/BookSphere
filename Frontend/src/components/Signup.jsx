@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import { NavLink, Link, useLocation, useNavigate } from "react-router-dom";
 import Login from './Login';
 import { useForm } from 'react-hook-form';
 import axios from "axios";
@@ -119,7 +119,7 @@ function Signup() {
                   <button
                     className="font-bold underline text-red-500 cursor-pointer"
                     onClick={() =>
-                      document.getElementById("my_modal_3").showModal()
+                      document.getElementById("my_modal_2").showModal()
                     }
                   >
                     Login

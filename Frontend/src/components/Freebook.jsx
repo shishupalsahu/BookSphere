@@ -72,7 +72,7 @@ function Freebook() {
           </p>
         </div>     
        
-        <div>
+        <div className='flex flex-col'>
         <Slider {...settings}>
         {book.map((item) => (
               <Cards item={item} key={item.id} />

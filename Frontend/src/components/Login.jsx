@@ -41,14 +41,14 @@ function Login() {
   };
   return (
     <div >
-      <dialog id="my_modal_2" className="modal">
-     <div className=" bg-blue-400 modal-box">
+      <dialog id="my_modal_2" className="modal bg-white">
+     <div className="dark:text-black bg-blue-4 modal-box">
      <form onSubmit={handleSubmit(onSubmit)} method="dialog">
             {/* if there is a button in form, it will close the modal */}
             <Link
               to="/"
               className=" btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
-              onClick={() => document.getElementById("my_modal_3").close()}
+              onClick={() => document.getElementById("my_modal_2").close()}
             >
               ✕
        </Link>
